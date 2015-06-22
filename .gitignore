@@ -1,0 +1,2 @@
+# ignore vendor libraries
+node_modules/*

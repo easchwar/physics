@@ -1,0 +1,22 @@
+{
+  "name": "physics",
+  "version": "1.0.0",
+  "description": "physics simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easchwar/physics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easchwar/physics/issues"
+  },
+  "dependencies": {
+    "node-static": "^0.7.4"
+  },
+  "homepage": "https://github.com/easchwar/physics"
+}
