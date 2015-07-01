@@ -5,9 +5,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>physics!</title>
     
-    <link rel="stylesheet" href="../css/physics.css" type="text/css" />
+    <link rel="stylesheet" href="./css/physics.css" type="text/css" />
 
+    <script type="text/javascript" src="./javascripts/util.js"></script>
+    <script type="text/javascript" src="./javascripts/physicalObject.js"></script>
     <script type="text/javascript" src="./javascripts/world.js"></script>
+    <script type="text/javascript" src="./javascripts/worldView.js"></script>
   </head>
   <body>
     <h1>some stuff</h1>
@@ -25,7 +28,7 @@
 
       var world = new window.Physics.World();
       var worldView = new window.Physics.WorldView(world, ctx);
-      gameView.start();
+      worldView.start();
     </script>
     
   </body>

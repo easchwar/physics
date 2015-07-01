@@ -13,3 +13,8 @@ body {
 #canvas {
   margin: 0 auto;
 }
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
